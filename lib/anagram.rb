@@ -10,4 +10,6 @@ class Anagram
     match = array.find{|word| word.split("").sort == @word.split("").sort}
     match
   end
+  
+end
     
