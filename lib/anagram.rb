@@ -6,5 +6,5 @@ class Anagram
   end
   
   def match(array)
-    array.detect{@word.split("").sort
+    array.find{@word.split("").sort
     
